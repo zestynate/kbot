@@ -4,10 +4,10 @@ import getpass
 import argparse
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--email",help="The email used to login to create.kahoot.it")
-    parser.add_argument("--password",help="The corrosponding password used to login to create.kahoot.it")
+    parser.add_argument("--email",help="1014211@student.crsd.org")
+    parser.add_argument("--password",help="1014211")
     parser.add_argument("--pin",help="The game pin")
-    parser.add_argument("--name",help="The name you want")
+    parser.add_argument("--name",help="nat bernard")
     parser.add_argument('--random_question', action="store_true")
     parser.add_argument('--random_answer', action="store_true")
     args = parser.parse_args()
